@@ -1,7 +1,7 @@
 # ROS2Gazebo
 
 # Link para o video no YouTube
-  https://youtube.com/shorts/-p8D8h1KyQc?si=eQsCDkq8eS3xrrCg
+  https://www.youtube.com/watch?v=WTTddl77GZ4
   
 # TurtleBot3 Waypoint Navigator (ROS 2)
 
