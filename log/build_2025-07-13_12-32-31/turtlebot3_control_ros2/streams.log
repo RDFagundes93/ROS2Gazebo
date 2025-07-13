@@ -1,0 +1,23 @@
+[0.810s] Invoking command in '/home/rodrigo/turtlebot3_ws/src/turtlebot3_control_ros2': PYTHONPATH=/home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_control_ros2 build --build-base /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build install --record /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/install.log --single-version-externally-managed install_data
+[1.021s] running egg_info
+[1.021s] writing ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/entry_points.txt
+[1.022s] writing requirements to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/requires.txt
+[1.022s] writing top-level names to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/top_level.txt
+[1.023s] reading manifest file '../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/SOURCES.txt'
+[1.023s] adding license file 'LICENSE'
+[1.024s] writing manifest file '../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/SOURCES.txt'
+[1.024s] running build
+[1.024s] running build_py
+[1.024s] running install
+[1.024s] running install_lib
+[1.025s] running install_data
+[1.025s] running install_egg_info
+[1.027s] removing '/home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.027s] Copying ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info to /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2-0.0.0-py3.10.egg-info
+[1.027s] running install_scripts
+[1.043s] Installing navigator_node script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/turtlebot3_control_ros2
+[1.043s] Installing turtlebot_ctrl script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/turtlebot3_control_ros2
+[1.044s] writing list of installed files to '/home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/install.log'
+[1.067s] Invoked command in '/home/rodrigo/turtlebot3_ws/src/turtlebot3_control_ros2' returned '0': PYTHONPATH=/home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_control_ros2 build --build-base /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build install --record /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/install.log --single-version-externally-managed install_data

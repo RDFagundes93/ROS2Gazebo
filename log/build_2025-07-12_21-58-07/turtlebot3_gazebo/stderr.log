@@ -1,0 +1,65 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:16[m[K,
+                 from [01m[K/home/rodrigo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc:20[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:36[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+                 from [01m[K/usr/include/c++/13/functional:63[m[K,
+                 from [01m[K/usr/include/ignition/math6/gz/math/graph/Edge.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/math6/gz/math.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+                 from [01m[K/home/rodrigo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc:17[m[K:
+[01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:16[m[K,
+                 from [01m[K/home/rodrigo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc:20[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:36[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+                 from [01m[K/usr/include/c++/13/functional:63[m[K,
+                 from [01m[K/usr/include/ignition/math6/gz/math/graph/Edge.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/math6/gz/math.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+                 from [01m[K/home/rodrigo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc:17[m[K:
+[01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:16[m[K,
+                 from [01m[K/home/rodrigo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc:20[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:36[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+                 from [01m[K/usr/include/c++/13/functional:63[m[K,
+                 from [01m[K/usr/include/ignition/math6/gz/math/graph/Edge.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/math6/gz/math.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/math6/ignition/math.hh:18[m[K,
+                 from [01m[K/home/rodrigo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc:17[m[K:
+[01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K

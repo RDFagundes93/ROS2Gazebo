@@ -1,0 +1,4 @@
+[console_scripts]
+navigator_node = turtlebot3_control_ros2.navigator_node:main
+turtlebot_ctrl = turtlebot3_control_ros2.turtlebot_ctrl:main
+

@@ -1,0 +1,24 @@
+[0.791s] Invoking command in '/home/rodrigo/turtlebot3_ws/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/rodrigo/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/rodrigo/turtlebot3_ws/build/turtlebot3_example/build install --record /home/rodrigo/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.986s] running egg_info
+[0.987s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.987s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.987s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.987s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.987s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.989s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.990s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.990s] running build
+[0.990s] running build_py
+[0.991s] running install
+[0.991s] running install_lib
+[0.992s] running install_data
+[0.992s] running install_egg_info
+[0.994s] removing '/home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info' (and everything under it)
+[0.994s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[0.995s] running install_scripts
+[1.010s] Installing turtlebot3_obstacle_detection script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.010s] Installing turtlebot3_patrol_client script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.010s] Installing turtlebot3_patrol_server script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.010s] Installing turtlebot3_position_control script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.011s] writing list of installed files to '/home/rodrigo/turtlebot3_ws/build/turtlebot3_example/install.log'
+[1.034s] Invoked command in '/home/rodrigo/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/rodrigo/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigo/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/rodrigo/turtlebot3_ws/build/turtlebot3_example/build install --record /home/rodrigo/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

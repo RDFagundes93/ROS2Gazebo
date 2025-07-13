@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info
+writing ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build
+creating /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build/lib
+creating /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build/lib/turtlebot3_control_ros2
+copying turtlebot3_control_ros2/__init__.py -> /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build/lib/turtlebot3_control_ros2
+copying turtlebot3_control_ros2/turtlebot_ctrl.py -> /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build/lib/turtlebot3_control_ros2
+running install
+running install_lib
+creating /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2
+copying /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build/lib/turtlebot3_control_ros2/__init__.py -> /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2
+copying /home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/build/lib/turtlebot3_control_ros2/turtlebot_ctrl.py -> /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2
+byte-compiling /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2/turtlebot_ctrl.py to turtlebot_ctrl.cpython-310.pyc
+running install_data
+creating /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/share/ament_index
+creating /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/share/ament_index/resource_index
+creating /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/share/ament_index/resource_index/packages
+copying resource/turtlebot3_control_ros2 -> /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/share/turtlebot3_control_ros2
+running install_egg_info
+Copying ../../build/turtlebot3_control_ros2/turtlebot3_control_ros2.egg-info to /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/python3.10/site-packages/turtlebot3_control_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigator_node script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/turtlebot3_control_ros2
+Installing turtlebot_ctrl script to /home/rodrigo/turtlebot3_ws/install/turtlebot3_control_ros2/lib/turtlebot3_control_ros2
+writing list of installed files to '/home/rodrigo/turtlebot3_ws/build/turtlebot3_control_ros2/install.log'
